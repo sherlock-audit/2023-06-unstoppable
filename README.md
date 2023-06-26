@@ -71,3 +71,14 @@ ___
 
 
 # Audit scope
+
+
+[unstoppable-dex-audit @ 4153c3e67ccc080032ba0bbaffd9a0c56a573070](https://github.com/Unstoppable-DeFi/unstoppable-dex-audit/tree/4153c3e67ccc080032ba0bbaffd9a0c56a573070)
+- [unstoppable-dex-audit/contracts/margin-dex/MarginDex.vy](unstoppable-dex-audit/contracts/margin-dex/MarginDex.vy)
+- [unstoppable-dex-audit/contracts/margin-dex/SwapRouter.vy](unstoppable-dex-audit/contracts/margin-dex/SwapRouter.vy)
+- [unstoppable-dex-audit/contracts/margin-dex/Vault.vy](unstoppable-dex-audit/contracts/margin-dex/Vault.vy)
+- [unstoppable-dex-audit/contracts/spot-dex/Dca.vy](unstoppable-dex-audit/contracts/spot-dex/Dca.vy)
+- [unstoppable-dex-audit/contracts/spot-dex/LimitOrders.vy](unstoppable-dex-audit/contracts/spot-dex/LimitOrders.vy)
+- [unstoppable-dex-audit/contracts/utils/Univ3Twap.sol](unstoppable-dex-audit/contracts/utils/Univ3Twap.sol)
+
+
