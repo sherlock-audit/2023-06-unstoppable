@@ -12,7 +12,7 @@ Arbitrum
 ___
 
 ### Q: Which ERC20 tokens do you expect will interact with the smart contracts? 
-any
+any. More context below
 ___
 
 ### Q: Which ERC721 tokens do you expect will interact with the smart contracts? 
@@ -20,7 +20,7 @@ none
 ___
 
 ### Q: Which ERC777 tokens do you expect will interact with the smart contracts? 
-not sure
+Any. More context below
 ___
 
 ### Q: Are there any FEE-ON-TRANSFER tokens interacting with the smart contracts?
@@ -68,6 +68,10 @@ ___
 Yes.
 ___
 
+### Additional Information on tokens used
+The Spot contracts need to be able to interact with any pool/token, we don’t want to have a centralized whitelist, we want it to work with any Uniswap v3 pool (and later others but this is probably out of scope).
+
+The Margin DEX has whitelisted tokens/markets anyways, so lets assume WETH, wBTC, ARB, USDC, USDT + default OZ ERC20 implementations as scope. We’ll have to keep that in mind then before considering other markets.
 
 
 # Audit scope
